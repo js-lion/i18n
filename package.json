@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.1.1",
   "type": "module",
-  "types": "types/index.d.ts",
+  "types": "./types/index.d.ts",
   "license": "MIT",
   "main": "./dist/i18n.js",
   "module": "./dist/i18n.js",

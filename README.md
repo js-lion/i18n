@@ -3,7 +3,7 @@
 国际化多语言工具
 
 ## 初始化
-[代码结构](./doc/init.md)
+[代码结构](https://github.com/js-lion/i18n/blob/master/doc/init.md)
 
 ## 获取文案
 
