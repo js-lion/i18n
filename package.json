@@ -13,9 +13,7 @@
   "scripts": {
     "test": "vite",
     "build": "vite build",
-    "postbuild": "npm run types",
-    "types": "tsc --declaration --noEmit false --emitDeclarationOnly --resolveJsonModule true --esModuleInterop --declarationDir ./types ./src/index",
-    "export": "i18n --export"
+    "types": "tsc --declaration --noEmit false --emitDeclarationOnly --resolveJsonModule true --esModuleInterop --declarationDir ./types ./src/index"
   },
   "keywords": [],
   "author": {
@@ -43,7 +41,6 @@
     "@fengqiaogang/safe-get": "^0.1.4",
     "@fengqiaogang/safe-set": "^0.1.3",
     "@js-lion/template": "^0.0.4",
-    "@js-lion/i18n-tools": "^1.0.2",
     "@types/node": "^18.15.3",
     "ts-node": "^10.9.1",
     "tslib": "^2.5.0",
