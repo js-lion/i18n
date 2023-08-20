@@ -1,0 +1,53 @@
+{
+  "name": "@js-lion/i18n",
+  "private": false,
+  "version": "0.1.1",
+  "type": "module",
+  "types": "types/index.d.ts",
+  "license": "MIT",
+  "main": "./dist/i18n.js",
+  "module": "./dist/i18n.js",
+  "exports": {
+    "import": "./dist/i18n.js"
+  },
+  "scripts": {
+    "test": "vite",
+    "build": "vite build",
+    "postbuild": "npm run types",
+    "types": "tsc --declaration --noEmit false --emitDeclarationOnly --resolveJsonModule true --esModuleInterop --declarationDir ./types ./src/index",
+    "export": "i18n --export"
+  },
+  "keywords": [],
+  "author": {
+    "name": "svon",
+    "email": "svon.me@gmail.com",
+    "url": "https://github.com/svonme"
+  },
+  "homepage": "https://github.com/js-lion/i18n#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-lion/i18n.git"
+  },
+  "files": [
+    "dist/",
+    "doc/",
+    "script/",
+    "types/",
+    "src/",
+    "script.js",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "devDependencies": {
+    "@fengqiaogang/safe-get": "^0.1.4",
+    "@fengqiaogang/safe-set": "^0.1.3",
+    "@js-lion/template": "^0.0.4",
+    "@js-lion/i18n-tools": "^1.0.2",
+    "@types/node": "^18.15.3",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4"
+  }
+}
